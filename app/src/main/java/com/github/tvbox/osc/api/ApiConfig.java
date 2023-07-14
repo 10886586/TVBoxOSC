@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitee.com/10886586/TVBox/raw/master/my_port.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
